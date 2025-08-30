@@ -88,6 +88,10 @@ Users can explore food categories, filter items by tags, and view all available 
 
 ---
 
+📸 Screenshot
+![App Screenshot](https://github.com/user-attachments/assets/52466c9b-364e-487f-b3d7-5a568c4d17ab)
+
+
 ## 📂 Project Structure  
 ```bash
 src/
@@ -99,7 +103,6 @@ src/
  ├── assets/ (Images for food items)  
  └── index.html
 
-<img width="1840" height="991" alt="Screenshot 2025-08-30 164211" src="https://github.com/user-attachments/assets/52466c9b-364e-487f-b3d7-5a568c4d17ab" />
 
 
 
