@@ -1,0 +1,24 @@
+<app-search></app-search>
+<app-tags></app-tags>
+<div class="food-gallery">
+  <div class="food-item" *ngFor="let food of foods">
+    <img [src]="food.imageUrl" alt="{{food.name}}">
+    <h5>{{ food.name }}</h5>
+    <p>⭐ {{ food.star }}</p>
+    <p>🍴 Cook Time: {{ food.cookTime }} mins</p>
+    <p>🌍 Origin: {{ food.origins.join(', ') }}</p>
+    <p class="price"> Price: ₹{{ food.price }}</p>
+
+    <div class="stars">
+      <ng-container *ngFor="let star of [].constructor(5); let i = index">
+        <span [class.filled]="i < food.star">★</span>
+      </ng-container>
+    </div>
+
+  </div>
+</div>
+
+
+ 
+
+

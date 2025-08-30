@@ -1,0 +1,32 @@
+.food-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.food-item {
+  width: 200px;          /* ek card ki width */
+  text-align: center;    
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.food-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;   /* image ke neeche gap for price */
+}
+.food-item img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.stars {
+  margin-top: 5px;
+  font-size: 20px;
+  color: gray;
+}
+
+.stars .filled {
+  color: gold;
+}

@@ -1,0 +1,35 @@
+/* Container */
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+/* Each tag link */
+a {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+  transform: scale(1.05);
+}
+
+/* Active/Selected tag (optional if you want to highlight current) */
+a.active {
+  background-color: #2196F3;
+  color: white;
+  border-color: #2196F3;
+}
