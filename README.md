@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foodorder
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Food_Order
+📌 Food Ordering Web App – Angular Project with Category &amp; Tag-based Filtering
+>>>>>>> a7e7a9bb0e8d5112e4740055004765f8099d0330
