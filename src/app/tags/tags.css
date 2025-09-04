@@ -1,9 +1,11 @@
 /* Container */
 div {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 15px 0;
+  margin: 15px 20px;
 }
 
 /* Each tag link */
