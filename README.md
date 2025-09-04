@@ -62,3 +62,47 @@ For more information on using the Angular CLI, including detailed command refere
 # Food_Order
 📌 Food Ordering Web App – Angular Project with Category &amp; Tag-based Filtering
 >>>>>>> a7e7a9bb0e8d5112e4740055004765f8099d0330
+>>>>>>>
+# 🍔 Food Ordering App – Angular Project  
+
+This is a **Food Ordering Web Application** built using **Angular**.  
+It displays a collection of food items with details such as price, cooking time, origins, ratings, and tags (like lunch, fast food, pizza, etc.).  
+Users can explore food categories, filter items by tags, and view all available dishes.  
+
+---
+
+## 🚀 Features  
+- 📂 List of food items with name, price, rating, and cooking time.  
+- 🏷️ Food categories with tag-based filtering (e.g., Fast Food, Pizza, Lunch, etc.).  
+- ⭐ Ratings & favorites for each food item.  
+- 🖼️ Images for each food dish.  
+- 📱 Responsive UI for better user experience.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** Angular  
+- **Styling:** CSS  
+- **Routing:** Angular Router  
+- **Data:** Mock JSON data (Foods array & Tags array)  
+
+---
+
+📸 Screenshot
+![App Screenshot](https://github.com/user-attachments/assets/52466c9b-364e-487f-b3d7-5a568c4d17ab)
+
+
+## 📂 Project Structure  
+```bash
+src/
+ ├── app/
+ │   ├── services/ (Data services for foods & tags)  
+ │   ├── components/ (Home, Food Item Card, Tags, etc.)  
+ │   ├── models/ (Food model)  
+ │   └── app.module.ts  
+ ├── assets/ (Images for food items)  
+ └── index.html
+
+
+
+
