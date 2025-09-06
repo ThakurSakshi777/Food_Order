@@ -1,0 +1,12 @@
+<div class="container" *ngIf="food">
+  <img [src]="food?.imageUrl" alt="{{ food?.name }}" />
+  <h2>{{ food?.name }}</h2>
+  <p>⭐ Rating: {{ food?.star }}</p>
+  <p>⏱️ Cook Time: {{ food?.cookTime }}</p>
+  <p>🌍 Origin: {{ food?.origins }}</p>
+  <p>💲 Price: {{ food?.price }}</p>
+  <p>   Tags: {{ food?.tags }}</p>
+  <button> Add to Cart</button>
+</div>
+
+

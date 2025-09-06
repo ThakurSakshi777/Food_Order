@@ -2,14 +2,15 @@ import { Component , OnInit } from '@angular/core';
 import { FoodService } from '../services/food/food.service';
 import { CommonModule } from '@angular/common';
 import { Foods } from '../shared/models/food';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Search } from '../search/search';
 import { Tags } from '../tags/tags';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule , Search , Tags],
+  imports: [CommonModule , Search , Tags , RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
